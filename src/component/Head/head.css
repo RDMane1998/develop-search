@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  padding: 5px;
+}
+
+.logo-img {
+  height: 100px;
+}
+
+.search-bar {
+  display: center;
+  height: 10px;
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+}
+
+@keyframes move-words {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+.words {
+  position: relative;
+  animation: move-words 20s linear infinite;
+  margin: 0px;
+  color: red;
+}

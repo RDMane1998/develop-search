@@ -1,0 +1,15 @@
+.shimmer {
+  width: 300px;
+  height: 250px;
+  border: solid lightgrey;
+  background-color: lightgrey;
+  margin: 2px;
+}
+
+.shimmer-container {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}

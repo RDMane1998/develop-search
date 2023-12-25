@@ -1,0 +1,23 @@
+.cartbox {
+  width: 300px;
+  height: 350px;
+  border: 1px solid;
+  box-shadow: 2px 2px;
+  padding: 5px;
+  margin: 2px;
+}
+
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+}
+
+.thumbnail-img {
+  width: 260px;
+  margin: auto;
+}
+
+.text {
+  color: black;
+}
